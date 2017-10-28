@@ -5,6 +5,8 @@
     margin: 0 auto;
     border: solid 0.5px #eee;
     box-shadow: 0 0 30px #555;
+    -moz-box-shadow: 0 0 30px #555;
+    -webkit-box-shadow: 0 0 30px #555;
     table-layout: fixed;
 }
 
