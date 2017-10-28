@@ -2,7 +2,7 @@ $(document).ready(function(){
     
     setSquarePerSide(64);
     
-    $('.square').on('mouseenter', function(){
+    $('table').on('mouseenter', '.square', function(){
         $(this).css({"background-color": getRandomColor()} );
     });
     
@@ -31,7 +31,7 @@ $(document).ready(function(){
                 $('table').addClass("sketchPad");
                 setSquarePerSide(squarePerSide);
         
-                $('.square').on('mouseenter', function(){
+                $('table').on('mouseenter', '.square' , function(){
                     $(this).css({"background-color": getRandomColor()} );
                 });
             }
